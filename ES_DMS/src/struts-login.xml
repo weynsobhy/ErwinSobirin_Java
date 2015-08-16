@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+    "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+
+	<package name="es-dms" extends="struts-default" namespace="/">
+		<action name="index" class="dms.Action"
+			method="frame">
+			<result name="success">/frame/index.jsp</result>
+		</action>
+
+<!-- 		<action name="home" class="app.struts.apotik.action.LoginAction" -->
+<!-- 			method="execute"> -->
+<!-- 			<result name="login">/frame/home.jsp</result> -->
+<!-- 			<result name="logout">/frame/index.jsp</result> -->
+<!-- 			<result name="index">/frame/index.jsp</result> -->
+<!-- 			<result name="home">/frame/main.jsp</result> -->
+<!-- 		</action> -->
+
+<!-- 		<action name="header" class="app.struts.apotik.action.LoginAction" -->
+<!-- 			method="frame"> -->
+<!-- 			<result name="success">/frame/header.jsp</result> -->
+<!-- 		</action> -->
+
+<!-- 		<action name="menu" class="app.struts.apotik.action.LoginAction" -->
+<!-- 			method="frame"> -->
+<!-- 			<result name="success">/frame/menu.jsp</result> -->
+<!-- 		</action> -->
+
+<!-- 		<action name="main" class="app.struts.apotik.action.LoginAction" -->
+<!-- 			method="frame"> -->
+<!-- 			<result name="success">/frame/main.jsp</result> -->
+<!-- 		</action> -->
+
+<!-- 		<action name="footer" class="app.struts.apotik.action.LoginAction" -->
+<!-- 			method="frame"> -->
+<!-- 			<result name="success">/frame/footer.jsp</result> -->
+<!-- 		</action> -->
+
+
+	</package>
+
+
+</struts>
